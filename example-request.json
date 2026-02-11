@@ -1,0 +1,28 @@
+{
+  "input": {
+    "workflow": {
+      "1": {
+        "inputs": {
+          "image": "0.2535049319267273_00001_.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "2": {
+        "inputs": {
+          "filename_prefix": "ComfyUI",
+          "images": [
+            "1",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      }
+    }
+  }
+}
